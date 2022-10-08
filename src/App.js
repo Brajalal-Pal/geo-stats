@@ -12,6 +12,7 @@ function App() {
   return (
     <React.Fragment>
       <NavBar />
+      <hr />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/continents" element={<Continent />} />
